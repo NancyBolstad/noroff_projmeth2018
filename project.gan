@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8"?><project name="Lofthus frukt og saft" company="" webLink="http://" view-date="2018-12-26" view-index="0" gantt-divider-location="1059" resource-divider-location="300" version="2.8.9" locale="en_NO">
+    <description><![CDATA[Course assignment for Project Methodology, Noroff Autumn 2018]]></description>
+    <view zooming-state="default:2" id="gantt-chart">
+        <field id="tpd3" name="Name" width="544" order="0"/>
+        <field id="tpd4" name="Begin date" width="192" order="1"/>
+        <field id="tpd5" name="End date" width="317" order="2"/>
+        <option id="taskLabelUp" value=""/>
+        <option id="taskLabelDown" value=""/>
+        <option id="taskLabelRight" value="name"/>
+        <option id="color.recent"><![CDATA[#009933 #ff3333 #ff9999]]></option>
+    </view>
+    <view id="resource-table">
+        <field id="0" name="Name" width="209" order="0"/>
+        <field id="1" name="Default role" width="85" order="1"/>
+    </view>
+    <!-- -->
+    <calendars>
+        <day-types>
+            <day-type id="0"/>
+            <day-type id="1"/>
+            <default-week id="1" name="default" sun="1" mon="0" tue="0" wed="0" thu="0" fri="0" sat="1"/>
+            <only-show-weekends value="false"/>
+            <overriden-day-types/>
+            <days/>
+        </day-types>
+    </calendars>
+    <tasks empty-milestones="true">
+        <taskproperties>
+            <taskproperty id="tpd0" name="type" type="default" valuetype="icon"/>
+            <taskproperty id="tpd1" name="priority" type="default" valuetype="icon"/>
+            <taskproperty id="tpd2" name="info" type="default" valuetype="icon"/>
+            <taskproperty id="tpd3" name="name" type="default" valuetype="text"/>
+            <taskproperty id="tpd4" name="begindate" type="default" valuetype="date"/>
+            <taskproperty id="tpd5" name="enddate" type="default" valuetype="date"/>
+            <taskproperty id="tpd6" name="duration" type="default" valuetype="int"/>
+            <taskproperty id="tpd7" name="completion" type="default" valuetype="int"/>
+            <taskproperty id="tpd8" name="coordinator" type="default" valuetype="text"/>
+            <taskproperty id="tpd9" name="predecessorsr" type="default" valuetype="text"/>
+        </taskproperties>
+        <task id="0" name="Planning" color="#ff3333" meeting="false" start="2018-11-15" duration="6" complete="0" thirdDate="2018-11-14" thirdDate-constraint="0" expand="true">
+            <depend id="32" type="2" difference="0" hardness="Rubber"/>
+            <task id="9" name="Discoverty meeting with client (all stakeholders are included)" color="#ff3333" meeting="true" start="2018-11-15" duration="0" complete="0" thirdDate="2018-11-14" thirdDate-constraint="0" expand="true">
+                <depend id="2" type="2" difference="0" hardness="Rubber"/>
+                <depend id="4" type="2" difference="0" hardness="Rubber"/>
+                <depend id="7" type="2" difference="0" hardness="Rubber"/>
+                <depend id="16" type="2" difference="0" hardness="Rubber"/>
+                <depend id="78" type="2" difference="0" hardness="Rubber"/>
+                <depend id="79" type="2" difference="0" hardness="Rubber"/>
+                <depend id="97" type="2" difference="0" hardness="Rubber"/>
+                <depend id="122" type="2" difference="0" hardness="Rubber"/>
+            </task>
+            <task id="2" name="Outline website goals" color="#ff9999" meeting="false" start="2018-11-15" duration="1" complete="0" thirdDate="2018-11-14" thirdDate-constraint="0" expand="true">
+                <depend id="25" type="2" difference="0" hardness="Rubber"/>
+            </task>
+            <task id="7" name="Define resources" color="#ff9999" meeting="false" start="2018-11-15" duration="1" complete="0" thirdDate="2018-11-14" thirdDate-constraint="0" expand="true"/>
+            <task id="16" name="Create marketing plan" color="#ff9999" meeting="false" start="2018-11-15" duration="5" complete="0" thirdDate="2018-11-14" thirdDate-constraint="0" expand="true"/>
+            <task id="122" name="Establish budget" color="#ff9999" meeting="false" start="2018-11-16" duration="5" complete="0" thirdDate="2018-11-14" thirdDate-constraint="0" expand="true"/>
+            <task id="4" name="Customer research" color="#ff9999" meeting="false" start="2018-11-16" duration="3" complete="0" thirdDate="2018-11-14" thirdDate-constraint="0" expand="true">
+                <depend id="6" type="2" difference="0" hardness="Rubber"/>
+            </task>
+            <task id="6" name="Create user stories" color="#ff9999" meeting="false" start="2018-11-21" duration="1" complete="0" thirdDate="2018-11-14" thirdDate-constraint="0" expand="true"/>
+            <task id="20" name="Choose a content management system (CMS)" color="#ff9999" meeting="false" start="2018-11-15" duration="3" complete="0" thirdDate="2018-11-14" thirdDate-constraint="0" expand="true"/>
+            <task id="21" name="Choose web host" color="#ff9999" meeting="false" start="2018-11-15" duration="1" complete="0" thirdDate="2018-11-14" thirdDate-constraint="0" expand="true">
+                <depend id="22" type="2" difference="0" hardness="Rubber"/>
+                <depend id="88" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="88" name="Set up server" color="#ff9999" meeting="false" start="2018-11-16" duration="1" complete="0" thirdDate="2018-11-14" thirdDate-constraint="0" expand="true">
+                <depend id="111" type="2" difference="0" hardness="Rubber"/>
+            </task>
+            <task id="22" name="Domain name registration" color="#ff9999" meeting="false" start="2018-11-16" duration="1" complete="0" thirdDate="2018-11-14" thirdDate-constraint="0" expand="true"/>
+            <task id="25" name="Create sitemap" color="#ff9999" meeting="false" start="2018-11-16" duration="2" complete="0" thirdDate="2018-11-14" thirdDate-constraint="0" expand="true"/>
+            <task id="40" name="Finalize site structrue and featrues" color="#ff3333" meeting="true" start="2018-11-22" duration="0" complete="0" thirdDate="2018-11-14" thirdDate-constraint="0" expand="true"/>
+        </task>
+        <task id="32" name="Design" color="#ff3333" meeting="false" start="2018-11-23" duration="9" complete="0" thirdDate="2018-11-14" thirdDate-constraint="0" expand="false">
+            <depend id="78" type="2" difference="0" hardness="Strong"/>
+            <task id="59" name="Content strategy session (designer and client)" color="#ff3333" meeting="true" start="2018-11-26" duration="0" complete="0" thirdDate="2018-11-14" thirdDate-constraint="0" expand="true"/>
+            <task id="299" name="Initial design" color="#ff9999" meeting="false" start="2018-11-23" duration="6" complete="0" thirdDate="2018-11-23" thirdDate-constraint="0" expand="false">
+                <depend id="63" type="2" difference="0" hardness="Rubber"/>
+                <depend id="146" type="2" difference="0" hardness="Rubber"/>
+                <task id="36" name="Create style tails" color="#009933" meeting="false" start="2018-11-26" duration="3" complete="0" thirdDate="2018-11-26" thirdDate-constraint="0" expand="true">
+                    <depend id="280" type="2" difference="0" hardness="Rubber"/>
+                    <task id="33" name="Logo design" color="#cccccc" meeting="false" start="2018-11-26" duration="3" complete="0" thirdDate="2018-11-26" thirdDate-constraint="0" expand="true"/>
+                    <task id="35" name="Create color palette" color="#cccccc" meeting="false" start="2018-11-26" duration="3" complete="0" thirdDate="2018-11-19" thirdDate-constraint="0" expand="true"/>
+                    <task id="34" name="Choose Fonts" color="#cccccc" meeting="false" start="2018-11-26" duration="3" complete="0" thirdDate="2018-11-26" thirdDate-constraint="0" expand="true"/>
+                </task>
+                <task id="280" name="Create wireframe" color="#009933" meeting="false" start="2018-11-29" duration="2" complete="0" thirdDate="2018-11-26" thirdDate-constraint="0" expand="true"/>
+                <task id="128" name="Content creation" color="#009933" meeting="false" start="2018-11-23" duration="3" complete="0" thirdDate="2018-11-19" thirdDate-constraint="0" expand="false">
+                    <task id="135" name="Assemble/create information about the company and its product" color="#cccccc" meeting="false" start="2018-11-23" duration="3" complete="0" thirdDate="2018-11-19" thirdDate-constraint="0" expand="true"/>
+                    <task id="130" name="Assemble/create visual items(photos, illustrations, etc)" color="#cccccc" meeting="false" start="2018-11-23" duration="3" complete="0" thirdDate="2018-11-19" thirdDate-constraint="0" expand="true"/>
+                    <task id="140" name="Assemble testimonials, reviews and awards" color="#cccccc" meeting="false" start="2018-11-23" duration="3" complete="0" thirdDate="2018-11-23" thirdDate-constraint="0" expand="true"/>
+                    <task id="133" name="Copyright, terms of use and privacy policy validation" color="#cccccc" meeting="false" start="2018-11-23" duration="3" complete="0" thirdDate="2018-11-23" thirdDate-constraint="0" expand="true"/>
+                    <task id="143" name="Proofread content on the website" color="#cccccc" meeting="false" start="2018-11-23" duration="3" complete="0" thirdDate="2018-11-19" thirdDate-constraint="0" expand="true"/>
+                </task>
+            </task>
+            <task id="63" name="Design Sesssion: Initial designs presented to client" color="#ff3333" meeting="true" start="2018-12-03" duration="0" complete="0" thirdDate="2018-11-19" thirdDate-constraint="0" expand="true">
+                <depend id="97" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="146" name="Content integration" color="#ff9999" meeting="false" start="2018-12-03" duration="3" complete="0" thirdDate="2018-11-19" thirdDate-constraint="0" expand="false">
+                <task id="149" name="Merge wireframe and content" color="#009933" meeting="false" start="2018-12-03" duration="3" complete="0" thirdDate="2018-12-03" thirdDate-constraint="0" expand="true"/>
+                <task id="151" name="Define headers and paragraphs" color="#009933" meeting="false" start="2018-12-03" duration="3" complete="0" thirdDate="2018-12-03" thirdDate-constraint="0" expand="true"/>
+                <task id="153" name="Decide meta information for SOE" color="#009933" meeting="false" start="2018-12-03" duration="3" complete="0" thirdDate="2018-11-19" thirdDate-constraint="0" expand="true"/>
+                <task id="157" name="Decide &quot;alt&quot; tags for images" color="#009933" meeting="false" start="2018-12-03" duration="3" complete="0" thirdDate="2018-11-19" thirdDate-constraint="0" expand="true"/>
+            </task>
+            <task id="97" name="Design Revision" color="#ff9999" meeting="false" start="2018-12-03" duration="2" complete="0" thirdDate="2018-11-23" thirdDate-constraint="0" expand="true"/>
+        </task>
+        <task id="78" name="Development" color="#ff3333" meeting="false" start="2018-12-06" duration="12" complete="0" thirdDate="2018-11-14" thirdDate-constraint="0" expand="false">
+            <depend id="79" type="2" difference="0" hardness="Strong"/>
+            <task id="86" name="Preparation for web development" color="#ff9999" meeting="false" start="2018-12-06" duration="2" complete="0" thirdDate="2018-12-06" thirdDate-constraint="0" expand="false">
+                <depend id="127" type="2" difference="0" hardness="Rubber"/>
+                <task id="83" name="Integrate approved design into the CMS" color="#009933" meeting="false" start="2018-12-06" duration="2" complete="0" thirdDate="2018-12-06" thirdDate-constraint="0" expand="true"/>
+                <task id="85" name="Set up a version control system" color="#009933" meeting="false" start="2018-12-06" duration="2" complete="0" thirdDate="2018-12-06" thirdDate-constraint="0" expand="true">
+                    <depend id="111" type="2" difference="0" hardness="Strong"/>
+                </task>
+                <task id="126" name="Install database" color="#009933" meeting="false" start="2018-12-06" duration="2" complete="0" thirdDate="2018-12-06" thirdDate-constraint="0" expand="true"/>
+            </task>
+            <task id="127" name="Create layout with HTML/CSS" color="#ff9999" meeting="false" start="2018-12-10" duration="5" complete="0" thirdDate="2018-11-14" thirdDate-constraint="0" expand="false">
+                <depend id="106" type="2" difference="0" hardness="Rubber"/>
+                <task id="334" name="Create basic layout with HTML" color="#009933" meeting="false" start="2018-12-10" duration="1" complete="0" thirdDate="2018-12-10" thirdDate-constraint="0" expand="true"/>
+                <task id="101" name="Design the global style sheets(CSS)" color="#009933" meeting="false" start="2018-12-10" duration="5" complete="0" thirdDate="2018-11-14" thirdDate-constraint="0" expand="true"/>
+            </task>
+            <task id="106" name="Specific content development" color="#ff9999" meeting="false" start="2018-12-17" duration="5" complete="0" thirdDate="2018-11-14" thirdDate-constraint="0" expand="false">
+                <depend id="111" type="1" difference="0" hardness="Strong"/>
+                <task id="110" name="Create responsive images and visual items" color="#009933" meeting="false" start="2018-12-17" duration="5" complete="0" thirdDate="2018-11-14" thirdDate-constraint="0" expand="true"/>
+                <task id="104" name="Home page development and coding" color="#009933" meeting="false" start="2018-12-17" duration="5" complete="0" thirdDate="2018-12-17" thirdDate-constraint="0" expand="true"/>
+                <task id="169" name="About page development and coding" color="#009933" meeting="false" start="2018-12-17" duration="5" complete="0" thirdDate="2018-12-17" thirdDate-constraint="0" expand="true"/>
+                <task id="103" name="Product page development and coding" color="#009933" meeting="false" start="2018-12-17" duration="5" complete="0" thirdDate="2018-12-17" thirdDate-constraint="0" expand="true"/>
+                <task id="170" name="Add specific content on each pages" color="#009933" meeting="false" start="2018-12-17" duration="5" complete="0" thirdDate="2018-12-17" thirdDate-constraint="0" expand="true"/>
+            </task>
+            <task id="111" name="Responsive/mobile and cross browser" color="#ff9999" meeting="false" start="2018-12-17" duration="5" complete="0" thirdDate="2018-11-14" thirdDate-constraint="0" expand="true"/>
+        </task>
+        <task id="79" name="Testing" color="#ff3333" meeting="false" start="2018-12-24" duration="5" complete="0" thirdDate="2018-11-14" thirdDate-constraint="0" expand="false">
+            <depend id="80" type="2" difference="0" hardness="Rubber"/>
+            <task id="163" name="Accessibility testing" color="#ff9999" meeting="false" start="2018-12-24" duration="5" complete="0" thirdDate="2018-12-24" thirdDate-constraint="0" expand="true"/>
+            <task id="164" name="Functionality testing" color="#ff9999" meeting="false" start="2018-12-24" duration="5" complete="0" thirdDate="2018-12-24" thirdDate-constraint="0" expand="true"/>
+            <task id="165" name="Typography testing" color="#ff9999" meeting="false" start="2018-12-24" duration="5" complete="0" thirdDate="2018-11-14" thirdDate-constraint="0" expand="true"/>
+            <task id="166" name="Responsiveness testing" color="#ff9999" meeting="false" start="2018-12-24" duration="5" complete="0" thirdDate="2018-12-24" thirdDate-constraint="0" expand="true"/>
+            <task id="167" name="Links testing" color="#ff9999" meeting="false" start="2018-12-24" duration="5" complete="0" thirdDate="2018-11-14" thirdDate-constraint="0" expand="true"/>
+        </task>
+        <task id="80" name="Launch" color="#ff3333" meeting="false" start="2018-12-31" duration="5" complete="0" thirdDate="2018-11-14" thirdDate-constraint="0" expand="false">
+            <task id="114" name="Social media promotion" color="#ff9999" meeting="false" start="2018-12-31" duration="5" complete="0" thirdDate="2018-12-31" thirdDate-constraint="0" expand="true"/>
+            <task id="115" name="Google analytics installation" color="#ff9999" meeting="false" start="2018-12-31" duration="5" complete="0" thirdDate="2018-12-31" thirdDate-constraint="0" expand="true"/>
+            <task id="116" name="Complete site review and evaluation" color="#ff9999" meeting="false" start="2018-12-31" duration="3" complete="0" thirdDate="2018-12-31" thirdDate-constraint="0" expand="true"/>
+            <task id="373" name="Launch meeting" color="#ff3333" meeting="true" start="2019-01-04" duration="0" complete="0" thirdDate="2018-12-31" thirdDate-constraint="0" expand="true"/>
+        </task>
+    </tasks>
+    <resources/>
+    <allocations/>
+    <vacations/>
+    <previous/>
+    <roles roleset-name="Default"/>
+</project>
